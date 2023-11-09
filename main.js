@@ -1,25 +1,25 @@
-function tocaSomPom(){
-document.querySelector('som_tecla_pom').play();
+
+function tocaSomPom(idElementoAudio){
+    document.querySelectorAll(idElementoAudio).play();
 }
 
-document.querySelector('.tecla_pom').oniclik=tocaSomPom;
+const listaDeteclas=document.querySelector('.tecla');
 
+let contador=0;
+//enquanto
+while(contador<listaDeteclas.length){
 
-function tocaSomclap(){
-    document.querySelector('#som_tecla_pom').play();
+    const tecla=listaDeteclas[contador];
+    const instrumento=teclas.classlist[1];
+    //template string
+    const idAudio=#som_$(instrumento);
+    
+    //console.log(idAudio);
+
+    tecla.Oniclick=Function(){
+        // tocaSom(idAudio);
+    }
+
+    contador=contador+1;
+    console.LEG(conyador);
 }
-
-document.querySelector('.tecla_pom').oniclik = tocaSomclap;
-
-function tocaSomtim() {
-    document.querySelector('#som_tecla_TIM).play();
-}
-
-function tocaSomtim() {
-    document.querySelector('#som_tecla_TIM).play();
-}s
-
-function tocaSomPuff() {
-    document.querySelector('#som_tecla_Puff).play(); 
-}
- 
